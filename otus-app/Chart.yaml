@@ -1,0 +1,6 @@
+apiVersion: v2
+name: otus-app
+description: A Helm chart for otus-app k8s
+type: application
+version: 0.1.0
+appVersion: "1.16.0"

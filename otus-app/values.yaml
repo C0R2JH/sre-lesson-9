@@ -1,0 +1,10 @@
+replicaCount: 3
+image:
+  repository: c0r2jh/otus-sre-lesson-8:latest
+  pullPolicy: IfNotPresent
+service:
+  port: 80
+  nodePort: 30201
+  type: NodePort
+  protocol: TCP
+  name: http
